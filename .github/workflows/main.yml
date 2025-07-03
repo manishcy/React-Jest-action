@@ -36,7 +36,7 @@ jobs:
           npx sonar-scanner \
             -Dsonar.projectKey=almcybage_react-jest-action \
             -Dsonar.organization=almcybage \
-            -Dsonar.sources=src \
+            -Dsonar.sources=unit-testing-mocha-chai \
             -Dsonar.tests=src \
             -Dsonar.test.inclusions=**/*.test.js \
             -Dsonar.javascript.lcov.reportPaths=coverage/lcov.info \
